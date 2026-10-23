@@ -16,7 +16,7 @@ Custom tools on an in-process MCP server, a PreToolUse hook, turn and budget cap
 Flags changed numbers, keeps Approve locked until every flag is checked, Vitest + Playwright in CI. [Live demo](https://payroll-console.onrender.com)
 
 **[Advocate Remuneration Assistant](https://github.com/mikekeror-rgb/advocate_renumeration_assistant_v1)**: RAG over Kenyan fee law and ~200 court rulings, with an exact fee calculator.
-Self-hosted on vLLM, Ollama and TGI; QLoRA + DPO fine-tuning cut fabricated citations from 11 to 0 on a 62-question eval. [Live app](https://advocate-renumeration-assistant.streamlit.app) · [Model](https://huggingface.co/mikekeror/qwen2.5-7b-advocate-dpo-lora)
+Self-hosted on vLLM, Ollama and TGI; QLoRA + DPO fine-tuning cut fabricated citations from 11 to 0 on a 62-question eval. [Results page](https://mikekeror-rgb.github.io/advocate_renumeration_assistant_v1/) · [Live app](https://advocate-renumeration-assistant.streamlit.app) · [Model](https://huggingface.co/mikekeror/qwen2.5-7b-advocate-dpo-lora)
 
 **[hybrid-retrieval-eval](https://github.com/mikekeror-rgb/hybrid-retrieval-eval)**: BM25 + dense retrieval fused with Reciprocal Rank Fusion, evaluated in a ZenML pipeline.
 
